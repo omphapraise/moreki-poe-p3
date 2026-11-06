@@ -1,0 +1,1787 @@
+{
+  "version": 1,
+  "language": "en",
+  "createdOn": "2026-10-26",
+  "disclaimer": "Saved answers from Moreki. Not live AI. Not financial advice.",
+  "noMatchMessage": "I don't have a saved answer for that yet. Try one of the topics below, or rephrase your question.",
+  "statusMeanings": {
+    "verified": "Checked against an official source on verifiedOn.",
+    "partially_verified": "Checked against a secondary source only. Re-check before launch.",
+    "unverified": "Contains factual claims not yet checked. Show an unverified label.",
+    "general_guidance": "General money advice with no figures or laws to check."
+  },
+  "topics": [
+    {
+      "id": "salary",
+      "label": "Salary and payslip"
+    },
+    {
+      "id": "tax",
+      "label": "Tax"
+    },
+    {
+      "id": "side_hustle",
+      "label": "Side hustle"
+    },
+    {
+      "id": "credit",
+      "label": "Credit"
+    },
+    {
+      "id": "debt",
+      "label": "Debt"
+    },
+    {
+      "id": "savings",
+      "label": "Savings"
+    },
+    {
+      "id": "emergency_fund",
+      "label": "Emergency fund"
+    },
+    {
+      "id": "investing",
+      "label": "Investing"
+    },
+    {
+      "id": "scams",
+      "label": "Scams"
+    },
+    {
+      "id": "family",
+      "label": "Family"
+    },
+    {
+      "id": "crisis",
+      "label": "Money crisis"
+    },
+    {
+      "id": "spending",
+      "label": "Spending"
+    },
+    {
+      "id": "basics",
+      "label": "Basics"
+    },
+    {
+      "id": "insurance",
+      "label": "Funeral cover and medical aid"
+    },
+    {
+      "id": "food",
+      "label": "Food"
+    },
+    {
+      "id": "about_moreki",
+      "label": "About Moreki"
+    }
+  ],
+  "sources": {
+    "sars-tax-tables-2026-27": {
+      "title": "SARS Guide for Employers in Respect of Employees' Tax (2027) and National Treasury Budget 2026 Tax Guide",
+      "urls": [
+        "https://www.sars.gov.za/guide-for-employers-in-respect-of-employees-tax-2027/",
+        "https://www.treasury.gov.za/documents/national%20budget/2026/sars/Budget%202026%20Tax%20guide.pdf"
+      ],
+      "checkedOn": "2026-10-26",
+      "note": "Under 65 tax threshold R99 000; age 65 to below 75 R153 250 (tax year 1 March 2026 to 28 February 2027)."
+    },
+    "taxtim-calculator-2026-27": {
+      "title": "TaxTim income tax calculator (secondary source)",
+      "urls": [
+        "https://www.taxtim.com/calculators/income-tax"
+      ],
+      "checkedOn": "2026-10-26",
+      "note": "UIF 1% of pay, capped at R177.12 a month for 2026/27. Not an official SARS or UIF page, re-check before launch."
+    },
+    "ncr-free-report": {
+      "title": "National Credit Regulator media release on credit reports",
+      "urls": [
+        "https://ncr.org.za/documents/Media%20release%20June%202021-%20Youth%20and%20CB.pdf"
+      ],
+      "checkedOn": "2026-10-26",
+      "note": "One free credit report a year from each bureau; NCR registers debt counsellors."
+    },
+    "ncr-dispute": {
+      "title": "National Credit Regulator on keeping your bureau record clean",
+      "urls": [
+        "https://ncr.org.za/index.php/latest-news/8-latest-news/128-keep-your-credit-bureau-record-clean-regardless-of-the-rising-cost-of-living"
+      ],
+      "checkedOn": "2026-10-26",
+      "note": "Free challenge of inaccurate information; bureaus have 20 business days."
+    },
+    "sars-payment-arrangement": {
+      "title": "SARS: How do I make payment arrangements?",
+      "urls": [
+        "https://www.sars.gov.za/faq/how-do-i-make-payment-arrangements/"
+      ],
+      "checkedOn": "2026-10-26",
+      "note": "eFiling or Contact Centre 0800 00 7277; must cover entire debt; returns must be up to date."
+    },
+    "businesslive-provisional-tax": {
+      "title": "BusinessLIVE Q&A with a Mazars tax consultant on provisional tax for freelancers (2020)",
+      "urls": [
+        "https://www.businesslive.co.za/bd/life/2020-03-03-qa-must-i-pay-provisional-tax-for-untaxed-freelance-work/"
+      ],
+      "checkedOn": "2026-10-26",
+      "note": "Sources conflict on the R30 000 rule. Left unverified until checked against the current SARS provisional tax guide."
+    },
+    "oldmutual-budget-2026": {
+      "title": "Old Mutual Budget 2026 Stop Press (secondary source)",
+      "urls": [
+        "https://www.oldmutual.co.za/om-docs/blt3fb0d2c6e736bf68/Old_Mutual_Budget_Stop_Press.pdf"
+      ],
+      "checkedOn": "2026-10-26",
+      "note": "Tax-free savings annual limit R46 000. Re-check against SARS or Treasury before launch."
+    },
+    "moreki-food-report": {
+      "title": "Moreki food affordability research report (25 Oct 2026)",
+      "urls": [],
+      "checkedOn": "2026-10-26",
+      "note": "Used for principles only (no price or statistic is quoted in the food answers)."
+    },
+    "sadag-helpline": {
+      "title": "SADAG Suicide Crisis Helpline (reported by Medihelp, EWN and IOL, 2025)",
+      "urls": [
+        "https://www.medihelp.co.za/showcase/blog/sadag-support",
+        "https://www.ewn.co.za/2025/09/10/what-it-takes-to-be-at-the-coalface-of-a-suicide-crisis-helpline",
+        "https://iol.co.za/lifestyle/health/2025-09-11-spot-the-signs-your-guide-to-saving-lives-this-suicide-prevention-month/"
+      ],
+      "checkedOn": "2026-10-26",
+      "note": "0800 567 567, 24 hours. Confirmed in several 2025 news and partner pages, but not yet on sadag.org itself. Re-check sadag.org before launch."
+    },
+    "ncr-contact": {
+      "title": "National Credit Regulator contact details (from NCR pages)",
+      "urls": [
+        "https://ncr.org.za/index.php/latest-news/8-latest-news/113-the-importance-of-knowing-your-credit-status"
+      ],
+      "checkedOn": "2026-10-26",
+      "note": "Call centre 0860 627 627; 011 554 2700 is listed as Reception, so the call centre number is used. Re-check ncr.org.za before launch."
+    }
+  },
+  "playfulLines": [
+    "Alright, Sherlock. Let's look at the numbers.",
+    "Money doesn't grow on trees, pal. Let's make a plan.",
+    "You and what army, pal? Let's check the numbers first.",
+    "The budget has entered the chat. And it has concerns.",
+    "Well, that was certainly a financial decision.",
+    "A bold strategy. Let's check whether it's also a sensible one.",
+    "Mate, the maths is not backing you up on this one.",
+    "The vibes are immaculate. The affordability is questionable.",
+    "Your future self would like a word.",
+    "Let's not let a 20% discount convince us to spend 100% of money we don't have.",
+    "That plan has more holes than a fishing net. Let's fix it.",
+    "The numbers have spoken. They're asking for a little supervision.",
+    "We can joke about it, but let's still sort it out.",
+    "Right, jokes aside, what's the actual situation?",
+    "No judgement. Just numbers, options, and a plan."
+  ],
+  "guardrails": [
+    "Never mock poverty, disability, trauma, grief, or a user asking a vulnerable question.",
+    "Do not shame users for debt, low income, financial inexperience, or past mistakes.",
+    "Do not use sarcasm when a user signals panic, desperation, abuse, or serious hardship.",
+    "Do not present a joke as factual financial, tax, legal, or credit advice.",
+    "Verify facts that depend on South African law, tax rules, rates or current products before giving definitive guidance.",
+    "Do not claim to access, freeze, lock, move, or control money or bank accounts.",
+    "Use slang naturally and occasionally; avoid making every sentence a meme.",
+    "Match the user's tone without assuming every user wants jokes.",
+    "When uncertain, ask a clarifying question rather than guessing about income, debt or goals.",
+    "When a user needs practical help, finish with a useful next step."
+  ],
+  "entries": [
+    {
+      "id": "salary-gross-vs-net",
+      "topic": "salary",
+      "tone": "playful",
+      "questions": [
+        "Why is my salary R14,000 but I only get around R12,000?",
+        "If my salary says R15k why does my bank account only see like R12k? Who stole the other R3k?",
+        "Why is my gross salary the big number and my take-home pay the disappointing plot twist?",
+        "I don't know the difference between gross salary and take-home pay."
+      ],
+      "keywords": [
+        "gross",
+        "net",
+        "take-home",
+        "take home",
+        "salary less",
+        "deductions",
+        "stole",
+        "plot twist",
+        "bank account",
+        "less than salary"
+      ],
+      "answer": "Nobody stole it. Your gross salary is the number in your contract, before anything comes off. Your take-home (net) pay is what's left after deductions like PAYE (tax), UIF and, if you have them, a retirement fund or medical aid. Open your payslip and add up the deductions. They should explain the gap.",
+      "nextStep": "Want to go through your payslip line by line?",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "salaryDiagnosis"
+    },
+    {
+      "id": "payslip-how-to-read",
+      "topic": "salary",
+      "tone": "calm",
+      "questions": [
+        "I have been working for two years and still don't understand my payslip.",
+        "Can you explain my payslip?",
+        "How do I read my payslip?"
+      ],
+      "keywords": [
+        "payslip",
+        "pay slip",
+        "understand payslip",
+        "read payslip",
+        "salary slip"
+      ],
+      "answer": "That's very common, and nobody teaches this at school. Most payslips have three parts: what you earned (gross), what was taken off (deductions like PAYE and UIF, and maybe a pension or medical aid), and what you actually receive (net). Start with those three lines and ignore the rest for now. If a deduction looks odd, ask your payroll or HR team what it is.",
+      "nextStep": "Tell me one line from your payslip that confuses you and we'll decode it.",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "salaryDiagnosis"
+    },
+    {
+      "id": "paye-what-is",
+      "topic": "tax",
+      "tone": "playful",
+      "questions": [
+        "What is PAYE and why is it eating my salary?",
+        "Can someone explain PAYE before I fight my employer?",
+        "Why is SARS catching strays from my payslip?"
+      ],
+      "keywords": [
+        "paye",
+        "pay as you earn",
+        "tax on payslip",
+        "employer tax",
+        "tax deducted",
+        "sars payslip"
+      ],
+      "answer": "PAYE means Pay As You Earn. Your employer takes a bit of tax off each payday and pays it to SARS for you, so you don't get one giant bill at the end of the year. It isn't extra tax, it's your yearly tax paid in monthly pieces. For the 2026/27 tax year (1 March 2026 to 28 February 2027) you only start paying income tax once your income goes above R99 000 a year if you're under 65. If too much was paid in for the year, you can get money back when SARS assesses your return.",
+      "nextStep": "Want to see how much of your pay goes to PAYE?",
+      "status": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "sars-tax-tables-2026-27"
+      ],
+      "openFeature": "taxReturn"
+    },
+    {
+      "id": "uif-what-is",
+      "topic": "salary",
+      "tone": "calm",
+      "questions": [
+        "I don't understand what UIF actually does.",
+        "What is UIF on my payslip?",
+        "Why is UIF deducted from my salary?"
+      ],
+      "keywords": [
+        "uif",
+        "unemployment insurance",
+        "unemployment fund",
+        "uif deduction"
+      ],
+      "answer": "UIF is the Unemployment Insurance Fund. A small part of your pay goes in so that if you lose your job, or go on maternity or illness leave, you may be able to claim some income for a while. It's 1% of your pay, with a monthly cap (R177.12 for 2026/27), and your employer pays in too. What you can claim depends on how long you contributed, so check the Department of Employment and Labour's rules if it ever happens.",
+      "nextStep": null,
+      "status": "partially_verified",
+      "verifiedOn": null,
+      "sourceIds": [
+        "taxtim-calculator-2026-27"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "boss-late-pay",
+      "topic": "salary",
+      "tone": "calm",
+      "questions": [
+        "If my boss pays me late, can I charge interest?",
+        "My salary came late, what can I do?"
+      ],
+      "keywords": [
+        "late salary",
+        "paid late",
+        "boss pays late",
+        "late pay",
+        "interest on salary",
+        "employer late"
+      ],
+      "answer": "That's frustrating, and being paid on time is part of your employment deal. I can't tell you whether you can charge interest, because that depends on your contract and the law. A good first step is to raise it in writing with HR or your boss and keep a record. If it keeps happening, the Department of Employment and Labour or a labour adviser can explain your options.",
+      "nextStep": null,
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "payday-broke-fast",
+      "topic": "salary",
+      "tone": "playful",
+      "questions": [
+        "I got paid yesterday and I'm already broke.",
+        "Bro where did my salary go",
+        "I got paid at midnight. Why am I financially fighting for my life by Tuesday?",
+        "Why does my salary disappear faster when I get paid on Friday?",
+        "My salary came in and disappeared like it owed somebody money.",
+        "I keep running out of money before payday even though I earn enough. What am I doing wrong?",
+        "Can I make my salary last longer by getting paid less frequently?",
+        "I got paid and immediately became poor again."
+      ],
+      "keywords": [
+        "where did my salary go",
+        "broke",
+        "already broke",
+        "payday",
+        "salary disappear",
+        "run out",
+        "running out",
+        "before payday",
+        "paid less frequently",
+        "poor again"
+      ],
+      "answer": "Your salary arrived, took one look at the situation and left. Let's retrace it: what came in, what left automatically (rent, debit orders, subscriptions, loan payments) and what you spent day to day. Usually it's fixed costs plus lots of small spends, not one big one. Getting paid less often won't help, it's the same money. Splitting the month into weekly amounts does. Log your spending for a couple of weeks and the pattern will show.",
+      "nextStep": "Want to start by listing what comes off the day you get paid?",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "money"
+    },
+    {
+      "id": "lifestyle-creep",
+      "topic": "salary",
+      "tone": "calm",
+      "questions": [
+        "If I make more money now, why can't I afford anything? Did my expenses get promoted too?",
+        "Why am I earning R30k and still living like I'm on R15k?",
+        "I earn more than my friends but somehow I'm always broke.",
+        "Why does being an adult cost money every five seconds?"
+      ],
+      "keywords": [
+        "lifestyle creep",
+        "earn more",
+        "raise",
+        "more money",
+        "can't afford",
+        "always broke",
+        "expenses promoted",
+        "adult cost"
+      ],
+      "answer": "Your expenses probably did get promoted. It's called lifestyle creep: when income goes up, rent, food, subscriptions and treats quietly go up with it. Look at where this month's money went and compare it with a year ago. Often a couple of categories jumped. Keep a gap between what you earn and what you spend, and give any raise a job before it disappears.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "salaryDiagnosis"
+    },
+    {
+      "id": "tax-explain-simple",
+      "topic": "tax",
+      "tone": "calm",
+      "questions": [
+        "I don't actually understand what tax is. Can you explain it without making me feel stupid?",
+        "Please explain tax like I'm five because my brain is not braining.",
+        "I'm 22 and I don't understand tax at all."
+      ],
+      "keywords": [
+        "what is tax",
+        "explain tax",
+        "tax like i'm five",
+        "don't understand tax",
+        "tax basics",
+        "income tax"
+      ],
+      "answer": "You're not the first and you won't be the last, no judgement. Think of tax as the government charging a share of what you earn to pay for things like roads, schools and clinics. If you work for an employer, they take your share off each payday (that's PAYE). Once a year SARS checks whether the right amount was paid. We can take it one small bit at a time.",
+      "nextStep": "Want the next step: how a tax return actually works?",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "taxReturn"
+    },
+    {
+      "id": "tax-no-consent",
+      "topic": "tax",
+      "tone": "playful",
+      "questions": [
+        "Can I tell SARS that I don't consent to taxes?",
+        "Can I negotiate my salary with SARS?"
+      ],
+      "keywords": [
+        "consent",
+        "negotiate with sars",
+        "opt out of tax",
+        "refuse tax",
+        "sars negotiate"
+      ],
+      "answer": "You can tell them, but it won't make the tax obligation vanish. Tax isn't something you opt into, and SARS doesn't negotiate your salary either. What you can do is make sure you're only paying what's actually due and claim what you're allowed to claim. Let's check what applies to you before you start a one-person courtroom drama.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "tax-sars-letter-not-filed",
+      "topic": "tax",
+      "tone": "calm",
+      "questions": [
+        "If I don't open the SARS email does the tax problem technically exist?",
+        "SARS wants me to submit something and I don't know what they're talking about.",
+        "I've never filed a tax return. Am I already in trouble?"
+      ],
+      "keywords": [
+        "sars email",
+        "sars letter",
+        "never filed",
+        "not filed",
+        "tax return",
+        "submit",
+        "sars notice",
+        "in trouble",
+        "efiling"
+      ],
+      "answer": "Sadly it still exists, and these things usually get more expensive the longer they wait, so let's open it together. Check what the notice actually asks for: it's often a tax return, a request to confirm something, or a bill. If you've never filed, it's better to sort it out now than to wait. You might be fine, or there might be a late penalty, but either way there are ways to fix it. You can log on to SARS eFiling or call the SARS Contact Centre on 0800 00 7277.",
+      "nextStep": "What does the letter or email say it wants?",
+      "status": "partially_verified",
+      "verifiedOn": null,
+      "sourceIds": [
+        "sars-payment-arrangement"
+      ],
+      "openFeature": "taxReturn"
+    },
+    {
+      "id": "tax-pay-instalments",
+      "topic": "tax",
+      "tone": "calm",
+      "questions": [
+        "Can I pay SARS in instalments of R20 because that's all I have?",
+        "I owe SARS and can't pay in one go.",
+        "Can I pay my tax in instalments?"
+      ],
+      "keywords": [
+        "instalments",
+        "installments",
+        "pay sars",
+        "owe sars",
+        "payment arrangement",
+        "can't pay tax",
+        "tax debt"
+      ],
+      "answer": "Yes, SARS can agree to an instalment payment arrangement if you can't pay in one go. You can ask through eFiling or the SARS Contact Centre on 0800 00 7277. SARS decides whether you qualify and how big the instalments must be, so I can't promise R20 will be accepted. The arrangement has to cover the whole debt, any outstanding returns normally need to be submitted first, and interest still applies.",
+      "nextStep": null,
+      "status": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "sars-payment-arrangement"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "tax-number-where",
+      "topic": "tax",
+      "tone": "calm",
+      "questions": [
+        "I don't know what my tax number is. Where do I find it?",
+        "How do I find my tax number?"
+      ],
+      "keywords": [
+        "tax number",
+        "tax reference",
+        "income tax number",
+        "irp5",
+        "where is my tax number"
+      ],
+      "answer": "Your tax number is usually on your IRP5 or tax certificate from your employer, and on letters and notices from SARS. If you have a SARS eFiling profile, it's there too. If you've never had one, you can register with SARS. If you're stuck, ask your employer's payroll team or call the SARS Contact Centre on 0800 00 7277.",
+      "nextStep": null,
+      "status": "partially_verified",
+      "verifiedOn": null,
+      "sourceIds": [
+        "sars-payment-arrangement"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "tax-deductions-reality",
+      "topic": "tax",
+      "tone": "playful",
+      "questions": [
+        "Can I declare my takeaway addiction as a business expense?",
+        "If my Uber driver becomes my accountant can I claim the trips?",
+        "Can I claim airtime because I need WhatsApp to complain about being broke?",
+        "If I work from home, can I claim my Wi-Fi because my boss keeps emailing me?",
+        "Can I claim therapy because checking my bank balance is emotionally damaging?"
+      ],
+      "keywords": [
+        "claim",
+        "deduct",
+        "deduction",
+        "business expense",
+        "write off",
+        "airtime claim",
+        "wifi claim",
+        "work from home claim",
+        "tax refund"
+      ],
+      "answer": "Love the creativity, but in general personal spending isn't a business expense, and the rules for what salaried people can claim are narrow. An expense normally has to be linked to earning your income, and home-office claims have strict conditions. If you have a genuine side business, real business costs (like data, transport for clients and equipment) can count, so keep your slips. Check the details with SARS or a registered tax practitioner before claiming anything.",
+      "nextStep": null,
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "tax-retired",
+      "topic": "tax",
+      "tone": "playful",
+      "questions": [
+        "If I am retired, does SARS also retire from asking me questions?",
+        "Do retired people pay tax?"
+      ],
+      "keywords": [
+        "retired",
+        "retirement tax",
+        "pensioner",
+        "65",
+        "over 65",
+        "pension tax"
+      ],
+      "answer": "Not quite. If you have taxable income, like a pension or interest, you may still need to file. The good news is the tax-free amount is higher from age 65: R153 250 a year for ages 65 to below 75 in 2026/27, compared with R99 000 for under 65s.",
+      "nextStep": null,
+      "status": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "sars-tax-tables-2026-27"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "sidehustle-when-sars",
+      "topic": "side_hustle",
+      "tone": "calm",
+      "questions": [
+        "I have a full-time job and make another R8k to R12k from my side business. When do I need to start worrying about SARS?",
+        "My side hustle is making money now. When does SARS enter the chat?",
+        "Guys am I actually supposed to pay tax on this??",
+        "I started a side hustle but I have no idea whether I am supposed to register anything.",
+        "I'm making money from freelance work. How do I keep track of it and know what tax responsibilities might apply?"
+      ],
+      "keywords": [
+        "side hustle",
+        "side business",
+        "freelance",
+        "side income",
+        "provisional tax",
+        "register sars",
+        "extra income",
+        "pay tax on this"
+      ],
+      "answer": "Don't worry, plan. Side income is taxable, and it's added to your salary on your tax return. You don't need to be scared of it, you just need to declare it and keep records. Whether you also have to register as a provisional taxpayer (paying tax in instalments during the year) depends on your situation, and sources disagree about the old 'R30 000' rule of thumb, so check with SARS or a registered tax practitioner instead of guessing. VAT is a separate thing that only applies at much higher turnover.",
+      "nextStep": "Want to start tracking your side income now?",
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [
+        "businesslive-provisional-tax"
+      ],
+      "openFeature": "sideHustle"
+    },
+    {
+      "id": "sidehustle-small-amounts",
+      "topic": "side_hustle",
+      "tone": "playful",
+      "questions": [
+        "If my side hustle makes R300, do I really have to tell SARS or can we keep this between us?",
+        "If my side hustle money goes into my account at 2am does SARS know about it?",
+        "If I call my business a hobby does SARS also call it a hobby?"
+      ],
+      "keywords": [
+        "r300",
+        "small amount",
+        "keep between us",
+        "2am",
+        "hobby",
+        "side hustle declare",
+        "hide income"
+      ],
+      "answer": "SARS doesn't care what time the money lands or what you call it. What counts is whether you're actually trading to earn money. As a rule, income is meant to be declared even when it's small, and at R300 the tax would be tiny, so it's not worth the stress of leaving it out. Keep it clean from day one and you won't have to worry later.",
+      "nextStep": null,
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "sidehustle-track",
+      "topic": "side_hustle",
+      "tone": "playful",
+      "questions": [
+        "How do I keep track of my side hustle money?",
+        "What records should I keep for my side business?"
+      ],
+      "keywords": [
+        "track side hustle",
+        "records",
+        "invoices",
+        "side hustle tracker",
+        "business account",
+        "keep slips"
+      ],
+      "answer": "Keep it simple: use a separate account if you can, note every payment you receive, and save slips and invoices for what you spend on the business. Put a slice of each payment aside so tax doesn't ambush you later. That's exactly what the Side Hustle Tracker will help with.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "sideHustle"
+    },
+    {
+      "id": "credit-low-why",
+      "topic": "credit",
+      "tone": "calm",
+      "questions": [
+        "Why is my credit score so low when I pay my accounts every month?",
+        "Is my credit score cooked or can we save it?",
+        "How do I fix my credit score because this thing is cooked."
+      ],
+      "keywords": [
+        "credit score",
+        "low score",
+        "fix credit",
+        "improve credit",
+        "score low",
+        "credit repair",
+        "cooked"
+      ],
+      "answer": "Paying on time helps, but it isn't the only thing. Scores can be pulled down by high balances compared with your limits, lots of recent applications, an old default that's still showing, a mistake on your report, or a very short credit history. The first step is to look at your actual credit report, because scores differ between bureaus and lenders. Moreki can't see or calculate your real credit score, so we won't make one up. Most credit problems improve over time with small, steady steps, and be careful with anyone who promises a quick fix.",
+      "nextStep": "Want me to walk you through getting your free credit report?",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "creditScore"
+    },
+    {
+      "id": "credit-check-report",
+      "topic": "credit",
+      "tone": "calm",
+      "questions": [
+        "How do I check my credit report and spot mistakes before they cause problems?",
+        "I have never checked my credit score. Is that bad?",
+        "If I don't know my credit score, is it technically zero?",
+        "Can my credit score see me?"
+      ],
+      "keywords": [
+        "credit report",
+        "check credit",
+        "free credit report",
+        "dispute",
+        "mistake on report",
+        "never checked",
+        "credit ombud",
+        "bureau report",
+        "score see me"
+      ],
+      "answer": "Not knowing isn't zero and it isn't a crime, plenty of people have never looked. Under the National Credit Act you're entitled to one free credit report a year from each credit bureau, such as TransUnion, Experian and XDS. Read it for accounts you don't recognise or wrong balances. If something is wrong, you can challenge it with the bureau for free, and they have 20 business days to deal with it. The Credit Ombud can help if the bureau can't.",
+      "nextStep": null,
+      "status": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "ncr-free-report",
+        "ncr-dispute"
+      ],
+      "openFeature": "creditScore"
+    },
+    {
+      "id": "credit-what-bureau",
+      "topic": "credit",
+      "tone": "calm",
+      "questions": [
+        "I don't know what a credit bureau is.",
+        "What is a credit bureau?"
+      ],
+      "keywords": [
+        "credit bureau",
+        "bureau",
+        "transunion",
+        "experian",
+        "xds"
+      ],
+      "answer": "A credit bureau is a company that collects information about how you handle credit (loans, cards, store accounts) and puts it into a credit report. Banks and shops check that report when you apply for credit. TransUnion, Experian and XDS are examples. The bureau doesn't decide whether you get credit, the lender does.",
+      "nextStep": null,
+      "status": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "ncr-free-report"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "credit-buy-on-credit",
+      "topic": "credit",
+      "tone": "playful",
+      "questions": [
+        "If I buy something expensive on credit and pay it back immediately, does my credit score become handsome?",
+        "Does buying things on credit actually help my credit score, or is that just what the salesperson told me?"
+      ],
+      "keywords": [
+        "credit help score",
+        "build credit",
+        "buy on credit",
+        "store account score",
+        "handsome"
+      ],
+      "answer": "Paying on time shows lenders you're reliable, so credit used responsibly can build a good record. But taking on credit just to improve your score usually costs more than it helps, especially once interest and fees are added. If you don't need it, don't buy it for the score. Handsome score, ugly bank balance.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "bnpl-catch",
+      "topic": "credit",
+      "tone": "playful",
+      "questions": [
+        "Buy now, pay later sounds lovely. Where's the catch, pal?",
+        "I signed up for accounts because they said 'pay later' and now I'm paying forever."
+      ],
+      "keywords": [
+        "buy now pay later",
+        "pay later",
+        "bnpl",
+        "layby",
+        "paying forever",
+        "store account"
+      ],
+      "answer": "The catch is that 'later' always arrives. Buy now, pay later is still credit: you owe the money, there can be fees or interest if you're late, and missed payments can hurt your credit record. It can be fine for something you'd afford anyway, but risky for things you couldn't. Before you tap yes, check the total cost and whether the instalments still fit after your bills.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "debt-no-disappear",
+      "topic": "debt",
+      "tone": "playful",
+      "questions": [
+        "If I delete the banking app does my debt still exist?",
+        "If I block the number calling about my debt, does the debt get blocked too?",
+        "If I owe R50,000 can I just change my name and start again?",
+        "Can I put my debt under my dog's name?",
+        "Can I ask the bank to forget my loan?",
+        "Can I negotiate with my debt like a hostage situation?"
+      ],
+      "keywords": [
+        "delete app",
+        "debt disappear",
+        "block number",
+        "change my name",
+        "dog",
+        "forget my loan",
+        "negotiate debt",
+        "debt collectors",
+        "owe"
+      ],
+      "answer": "Nice try, but the app disappears, not the debt. Same goes for blocked numbers, new names and dogs. The good news is you can negotiate in real life: contact the lender early, explain your situation and ask about a payment arrangement. If you're juggling several debts, a debt counsellor registered with the National Credit Regulator can help you build a plan. Let's list what you owe and work out the least painful next step.",
+      "nextStep": "Want to list your debts together?",
+      "status": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "ncr-free-report"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "debt-scared-to-look",
+      "topic": "debt",
+      "tone": "calm",
+      "questions": [
+        "I have three credit accounts and I'm scared to check how much I owe.",
+        "I have a few accounts and I'm scared to add up what I owe. Can we do this without making me feel like an idiot?",
+        "I am scared to open my banking app because I already know it's bad."
+      ],
+      "keywords": [
+        "scared",
+        "afraid",
+        "avoid",
+        "add up what i owe",
+        "banking app",
+        "owe",
+        "accounts",
+        "overwhelmed"
+      ],
+      "answer": "You're not an idiot, you're human, and facing it is the hardest bit. We'll go slowly. Step one is only a list: each account, what you owe, the monthly payment and the interest rate if you know it. No fixing yet. Seeing the real numbers is almost always less scary than the guessing.",
+      "nextStep": "Ready to write down the first account?",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "money"
+    },
+    {
+      "id": "debt-hopeless",
+      "topic": "debt",
+      "tone": "calm",
+      "questions": [
+        "I'm never going to get out of debt.",
+        "Can I recover financially or am I finished?"
+      ],
+      "keywords": [
+        "never get out of debt",
+        "hopeless",
+        "finished",
+        "can't recover",
+        "drowning",
+        "too much debt"
+      ],
+      "answer": "I hear you. Debt can feel endless when you're staring at the full amount, but you don't have to figure everything out today.\n\nLet's start by listing what you owe, your minimum payments, your interest rates and what you can realistically afford. We can work through your options one step at a time.\n\nIf you're struggling to keep up with repayments, you can contact the National Credit Regulator on 0860 627 627 (or at ncr.org.za) to find a registered debt counsellor.\n\nAnd if the stress is becoming too much emotionally, the SADAG Suicide Crisis Helpline is open 24 hours a day on 0800 567 567.\n\nYou don't have to tackle everything at once. Let's start with the next step.",
+      "nextStep": "Want to start by writing down the smallest debt on your list?",
+      "status": "partially_verified",
+      "verifiedOn": null,
+      "sourceIds": [
+        "sadag-helpline",
+        "ncr-contact"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "debt-card-with-card",
+      "topic": "debt",
+      "tone": "playful",
+      "questions": [
+        "Can I pay my credit card with another credit card and create infinite money?",
+        "If I pay one debt with another debt, have I actually paid anything?",
+        "If I owe money to five different companies, can they have a group meeting and decide who gets paid first?"
+      ],
+      "keywords": [
+        "pay card with card",
+        "infinite money",
+        "another debt",
+        "five companies",
+        "who gets paid first",
+        "juggling debt"
+      ],
+      "answer": "Sadly no, that just moves the debt around, usually with extra interest and fees. Each lender wants its own payment. If you owe several people and can't pay everyone, tell them early and look at your options, like a payment arrangement or a debt counsellor. Start by listing everything you owe and which debts cost the most.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "savings-or-debt-first",
+      "topic": "savings",
+      "tone": "calm",
+      "questions": [
+        "I don't know whether I should be saving or paying off debt first.",
+        "Should I save first, pay off debt first, or build an emergency fund first? Everyone online says something different."
+      ],
+      "keywords": [
+        "save or pay debt",
+        "debt first",
+        "save first",
+        "what first",
+        "priorities",
+        "order"
+      ],
+      "answer": "Everyone online sounds sure because they don't know your numbers. A sensible order for many people: a small buffer first so one surprise doesn't push you deeper into debt, then pay down the debt that costs the most interest, then grow your emergency fund. Which order fits depends on your interest rates and your monthly cash. Tell me roughly what you owe and we'll think it through.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "emergencyFund"
+    },
+    {
+      "id": "emergency-how-much",
+      "topic": "emergency_fund",
+      "tone": "playful",
+      "questions": [
+        "How much should I save before life launches another surprise side quest?",
+        "How much emergency money do I need before I can stop calling every unexpected expense an emergency?",
+        "How much should I save for emergencies?"
+      ],
+      "keywords": [
+        "emergency fund",
+        "how much save",
+        "emergency money",
+        "safety net",
+        "surprise expense",
+        "rainy day",
+        "what is an emergency"
+      ],
+      "answer": "A common rule of thumb is three to six months of your essential costs (rent, food, transport, bills), but that can feel huge. Start smaller: even one week of essentials is a real cushion. A true emergency is urgent, unavoidable and unplanned, like a medical bill or a car breakdown. The Emergency Fund Builder will work out a target from your own numbers.",
+      "nextStep": "Want to start with a first goal you can reach this month?",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "emergencyFund"
+    },
+    {
+      "id": "emergency-sale",
+      "topic": "emergency_fund",
+      "tone": "playful",
+      "questions": [
+        "Can I use my emergency fund for an emergency like a Black Friday sale?",
+        "I used my emergency fund for a sale. Again.",
+        "Can I create an emergency fund specifically for emergencies caused by poor decisions?"
+      ],
+      "keywords": [
+        "black friday",
+        "sale",
+        "used my emergency fund",
+        "raided",
+        "emergency fund spent",
+        "poor decisions"
+      ],
+      "answer": "The emergency fund was not in danger. The discount was. A sale isn't an emergency, it's a want with a countdown timer. Let's rebuild the fund and set up a separate small fun-money pot so treats have their own home and don't raid the safety net.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "emergencyFund"
+    },
+    {
+      "id": "emergency-start-late",
+      "topic": "emergency_fund",
+      "tone": "calm",
+      "questions": [
+        "I have no emergency fund and I'm already 30. Is that terrible?",
+        "I make decent money but I have absolutely nothing to show for it."
+      ],
+      "keywords": [
+        "no emergency fund",
+        "already 30",
+        "nothing to show",
+        "too late",
+        "behind"
+      ],
+      "answer": "It's not terrible, and it's not too late. Plenty of people start at 30, 40 or later. What matters is starting. Pick an amount you can manage even in a tight month, move it on payday, and build from there.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "emergencyFund"
+    },
+    {
+      "id": "savings-r100",
+      "topic": "savings",
+      "tone": "playful",
+      "questions": [
+        "If I save R100 every month, how long until I become rich?",
+        "Can I save R100 and become rich by next month?",
+        "If I put all my money into savings and then immediately withdraw it, did I technically save?",
+        "If I get paid today and save tomorrow, does that mean I'm financially responsible now?"
+      ],
+      "keywords": [
+        "r100",
+        "rich",
+        "save r100",
+        "become rich",
+        "withdraw",
+        "financially responsible",
+        "how long to save"
+      ],
+      "answer": "I admire the ambition. The calendar, however, has declined to cooperate. R100 a month is a real start, but it won't make you rich quickly, and saving only counts if it stays saved. A good habit is to move the money on payday, before you spend it, and leave it alone. Raise the amount whenever your income goes up. Consistency beats size.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "savings-habits",
+      "topic": "savings",
+      "tone": "playful",
+      "questions": [
+        "Can I put my entire salary into savings and simply refuse to look at it?",
+        "Can I make my financial goals legally binding so I can't betray myself?",
+        "Give me a savings challenge that doesn't require me to live on air and positive thoughts."
+      ],
+      "keywords": [
+        "savings challenge",
+        "automatic savings",
+        "legally binding",
+        "save salary",
+        "pay yourself first",
+        "savings habit"
+      ],
+      "answer": "You still have to pay for rent, food and transport, so not the whole salary, but moving a fixed amount into savings on payday is a great habit. You can't make goals legally binding, but you can make them hard to break: a separate savings account, an automatic transfer, and a friend who asks how it's going. For a challenge, pick a small amount you can manage even in a bad week and repeat it weekly. No air or positive thoughts needed.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "goals-too-many",
+      "topic": "savings",
+      "tone": "playful",
+      "questions": [
+        "I want a car, my own place, savings, holidays, and financial peace. Can my salary please stop being so unserious?",
+        "At what salary does being an adult finally stop feeling like a subscription service?"
+      ],
+      "keywords": [
+        "goals",
+        "car",
+        "own place",
+        "holiday",
+        "too many goals",
+        "dream",
+        "salary not enough"
+      ],
+      "answer": "Your salary is doing its best. The trick is ranking: pick the goal that matters most this year and give it a fixed monthly amount, then give the others smaller amounts or let them wait their turn. Trying to fund everything at once usually funds nothing. Want to list your goals in order?",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "retirement-how-much",
+      "topic": "savings",
+      "tone": "calm",
+      "questions": [
+        "How much money do I actually need to retire without becoming a burden on my children?",
+        "If I retire and don't have to wake up at 5am anymore, is that technically a financial asset?"
+      ],
+      "keywords": [
+        "retire",
+        "retirement",
+        "pension",
+        "burden on my children",
+        "how much to retire"
+      ],
+      "answer": "Honest answer: there's no single number. It depends on how you want to live, how long you'll need the money and what you already have, like a workplace retirement fund. Saving early and steadily matters more than a perfect target. Moreki doesn't have a retirement calculator yet, so I won't guess a figure. A registered financial adviser can help you work out yours.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "invest-start-small",
+      "topic": "investing",
+      "tone": "calm",
+      "questions": [
+        "Do I need to be rich to start investing, or can I start small without making a financially tragic decision?",
+        "How do I start investing?"
+      ],
+      "keywords": [
+        "invest",
+        "investing",
+        "start small",
+        "tax free savings",
+        "tfsa",
+        "shares",
+        "unit trust"
+      ],
+      "answer": "You don't need to be rich. Get the basics first: a small emergency buffer and no expensive debt. Then you can invest small amounts regularly. A tax-free savings account has a yearly limit (R46 000 a year from the 2026 Budget) and growth inside it is tax-free, but it's still an investment, so the value can go up or down. Use registered providers, and be wary of anything promising guaranteed returns.",
+      "nextStep": null,
+      "status": "partially_verified",
+      "verifiedOn": null,
+      "sourceIds": [
+        "oldmutual-budget-2026"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "scam-double-money",
+      "topic": "scams",
+      "tone": "playful",
+      "questions": [
+        "Someone says I can double my money in a week. Is this an investment opportunity or a clown convention?",
+        "Is this investment a scam?"
+      ],
+      "keywords": [
+        "double my money",
+        "scam",
+        "ponzi",
+        "guaranteed returns",
+        "get rich quick",
+        "investment opportunity",
+        "pyramid"
+      ],
+      "answer": "Clown convention. Nobody can honestly guarantee to double your money in a week, and promises like that are a classic scam warning sign. Don't send money, don't share your banking details, and ignore pressure to hurry. If you want to check a company, see whether it's registered with the FSCA (the financial regulator) before putting any money in.",
+      "nextStep": null,
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "family-how-much",
+      "topic": "family",
+      "tone": "calm",
+      "questions": [
+        "I earn R18k and help my mom and younger brother every month. How much can I realistically afford to send home?",
+        "How much can I send home without financially destroying myself?",
+        "I have no idea how much money I should be giving my parents every month.",
+        "I want to help at home, but how much can I contribute without leaving myself unable to cover my own needs?"
+      ],
+      "keywords": [
+        "send home",
+        "support family",
+        "help family",
+        "parents",
+        "mom",
+        "how much give",
+        "family contribution",
+        "help at home"
+      ],
+      "answer": "Wanting to help your family is a good thing, and you still need to be okay too. A practical way: cover your own essentials first (rent, food, transport, data, debt payments), keep a little for yourself, then decide what you can send every month without fail. A steady, realistic amount is better than a big one you can't keep up. The Family Contribution Calculator will work this out with your real numbers.",
+      "nextStep": "Want to start by listing your essentials?",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "familyContribution"
+    },
+    {
+      "id": "family-atm",
+      "topic": "family",
+      "tone": "calm",
+      "questions": [
+        "How many relatives can one salary realistically support before I become the family ATM?",
+        "If everyone in my family thinks I am rich because I have a job, how do I prove that I'm actually fighting for my life?",
+        "Why does every financial problem in this house somehow become my problem?",
+        "If everyone thinks I earn a lot but I don't, can I sue the rumours?",
+        "Can I declare my parents as dependants if they are the ones asking me for money every month?"
+      ],
+      "keywords": [
+        "family atm",
+        "relatives",
+        "everyone thinks i'm rich",
+        "family problems",
+        "my problem",
+        "dependants",
+        "dependents",
+        "rumours"
+      ],
+      "answer": "That's a lot to carry, and it makes sense to feel stretched. You don't have to win an argument to be believed. Showing a simple budget of what comes in and goes out can change the conversation. Agree on one fixed monthly amount and say 'this is what I can do', rather than deciding case by case. On the dependants question, tax rules about dependants are narrow, so check with SARS before assuming you can claim.",
+      "nextStep": null,
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "familyContribution"
+    },
+    {
+      "id": "family-borrowed-avoiding",
+      "topic": "family",
+      "tone": "calm",
+      "questions": [
+        "I borrowed money from my family and now I'm avoiding their calls. How do I fix this?"
+      ],
+      "keywords": [
+        "borrowed from family",
+        "avoiding calls",
+        "owe family",
+        "owe my mom",
+        "family loan"
+      ],
+      "answer": "Avoiding the calls is a very human reaction, and it usually makes the knot tighter. Reaching out first, even with a short message, takes a lot of the pressure off. Be honest about where you are, say you want to pay it back, and offer a small amount on a date you can keep. A small realistic plan beats a big promise.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "crisis-low-money",
+      "topic": "crisis",
+      "tone": "calm",
+      "questions": [
+        "I'm finished bro. R800 until payday. What do I actually do?",
+        "I've got R300 left for the next ten days. Can you help me prioritise without giving me a lecture?",
+        "I've got R120 to last until Friday.",
+        "I need emergency mode because January has violated me.",
+        "Is it financially responsible to eat cereal for dinner so I can afford petrol?"
+      ],
+      "keywords": [
+        "r800",
+        "r300",
+        "r120",
+        "until payday",
+        "last until",
+        "ten days",
+        "emergency mode",
+        "no money",
+        "cereal",
+        "petrol",
+        "crisis",
+        "skint"
+      ],
+      "answer": "Okay, no jokes and no lecture. First, count the days until money comes in. Then split what's left into must-haves: food, transport to work, data you really need, and anything that causes real trouble if missed, like rent or electricity. Park everything else until payday. A few simple meals to get through is fine if it gets you to work, as long as you're still eating enough. How many days to go, and which bills are still coming?",
+      "nextStep": "Tell me the days left and what's still due, and we'll split it.",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "crisisMode"
+    },
+    {
+      "id": "spending-no-idea",
+      "topic": "spending",
+      "tone": "calm",
+      "questions": [
+        "I don't know how much money I spend every month. Where do I even start?",
+        "Bro I need a budget because this salary is doing absolutely nothing.",
+        "Can you investigate my takeaway spending?",
+        "How do I stop spending money like I'm sponsored?",
+        "Can my budget include emotional support?"
+      ],
+      "keywords": [
+        "budget",
+        "start budget",
+        "where to start",
+        "how much i spend",
+        "track spending",
+        "takeaway",
+        "stop spending",
+        "sponsored",
+        "emotional support"
+      ],
+      "answer": "Start simple: write down what comes in each month, then your fixed costs (rent, transport, debit orders), then log everything else for a few weeks. No fancy spreadsheet needed. The Money tab does the maths for you. And yes, your budget can include a small treat line. A budget with no fun in it usually lasts about a week.",
+      "nextStep": "Want to set your monthly budget now?",
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "money"
+    },
+    {
+      "id": "impulse-buy",
+      "topic": "spending",
+      "tone": "playful",
+      "questions": [
+        "My budget says no, but my heart says add to cart. Who's in charge here?",
+        "I'm about to buy these expensive sneakers even though rent is due.",
+        "Talk me out of buying this phone. Or tell me it's a good idea. Actually, be honest.",
+        "But I REALLY want it.",
+        "The numbers say I can't afford it. The numbers need to mind their business. What now?",
+        "If I buy something because it is on sale, did I technically make money?",
+        "Can I call a R10,000 shopping spree 'economic stimulation'?",
+        "If my budget says I can't afford something but I really want it, which one wins?"
+      ],
+      "keywords": [
+        "add to cart",
+        "sneakers",
+        "buy phone",
+        "really want it",
+        "can't afford",
+        "on sale",
+        "shopping spree",
+        "impulse",
+        "treat myself",
+        "should i buy"
+      ],
+      "answer": "Rent is due, mate, so the sneakers can wait. A sale only saves you money on something you were going to buy anyway. Try this: work out what you'll have left after rent, bills and food, wait 24 hours, then decide. If it still fits and you still want it, it's a plan, not an impulse. If it doesn't fit yet, let's see whether you can save for it without touching the essentials.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "money"
+    },
+    {
+      "id": "instalment-affordable",
+      "topic": "spending",
+      "tone": "calm",
+      "questions": [
+        "If I can make the monthly instalment, that means I can afford it, right? ...Right?"
+      ],
+      "keywords": [
+        "instalment",
+        "installment",
+        "monthly payment",
+        "afford",
+        "can i afford",
+        "finance",
+        "hire purchase"
+      ],
+      "answer": "Not quite. A small monthly instalment can hide a big total cost once interest and fees are added, and it can squeeze the rest of your budget. Before you sign, check the total you'll pay, how many months it runs, and whether you'd still cover food, transport and savings with that payment going out.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "moreki-cant-lock",
+      "topic": "about_moreki",
+      "tone": "playful",
+      "questions": [
+        "Can you lock my account so I stop spending?",
+        "Can Moreki tell my bank to stop letting me spend money?",
+        "Can Moreki physically stop me from ordering Uber Eats?",
+        "If I put my bank card in the freezer will I stop spending?"
+      ],
+      "keywords": [
+        "lock my account",
+        "stop me spending",
+        "freeze",
+        "block my card",
+        "uber eats",
+        "bank to stop me",
+        "freezer",
+        "lock my card",
+        "lock card",
+        "lock my bank"
+      ],
+      "answer": "I can't lock your bank account from here, and I'm not going to pretend I can. But we can build some speed bumps: remove saved cards from apps, set a spending limit, ask your bank what controls it offers, and keep savings out of easy reach. The freezer is a classic. It adds friction, and friction is the whole point.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "balance-myths",
+      "topic": "spending",
+      "tone": "playful",
+      "questions": [
+        "If I don't check my bank balance can I still be broke?",
+        "If I uninstall my banking app, will the balance stay the same?",
+        "If I spend all my money before month-end, does that technically mean I have no money left to spend?",
+        "If I transfer money between my own accounts am I technically earning money twice?",
+        "If my bank account is negative, am I technically borrowing money from myself?"
+      ],
+      "keywords": [
+        "check balance",
+        "uninstall",
+        "month-end",
+        "transfer between accounts",
+        "negative balance",
+        "overdraft",
+        "earning twice",
+        "borrowing from myself"
+      ],
+      "answer": "Looking away doesn't change the number, unfortunately. Moving your own money between your accounts isn't extra income, it's the same money in a different pocket. A negative balance is borrowing from the bank, not from yourself, and the bank can charge fees and interest on it. Better to know the number. Knowing is the first step to fixing.",
+      "nextStep": null,
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "joke-cv",
+      "topic": "spending",
+      "tone": "playful",
+      "questions": [
+        "Can I put 'financially recovering' as my occupation?",
+        "Can I put 'professional spender' on my CV?",
+        "Can I classify being broke as a temporary investment?",
+        "Can I put 'survived January' on my financial resume?",
+        "If my salary increases but my happiness doesn't, can I get a refund?",
+        "If I am financially irresponsible but aware of it, does that count as financial literacy?"
+      ],
+      "keywords": [
+        "occupation",
+        "cv",
+        "resume",
+        "professional spender",
+        "survived january",
+        "refund",
+        "financially literate",
+        "temporary investment"
+      ],
+      "answer": "Respect for the creativity. None of those are official categories, but surviving a tight month is a real skill, and being aware is a genuine first step. Let's turn it into a plan: where does the money go, and what's one thing you can change this month?",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "friends-lending",
+      "topic": "spending",
+      "tone": "playful",
+      "questions": [
+        "If I lend my friend R500 and they say 'I'll pay you next week' for six months, is that an investment?",
+        "Can I invoice my family for financial advice they never listen to?"
+      ],
+      "keywords": [
+        "lend friend",
+        "lent money",
+        "pay you next week",
+        "invoice family",
+        "borrowed my money"
+      ],
+      "answer": "That's not an investment, it's a loan with no paperwork and no interest. A good rule is to only lend what you can afford to never see again. If it's already happened, a clear, friendly message with a date helps: 'Hey, I need that R500 back by the 30th.' The invoice idea can stay a joke. A calm money chat usually works better than a bill.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "social-spending",
+      "topic": "spending",
+      "tone": "playful",
+      "questions": [
+        "My friends want to go out, but I'm trying to save. How do I say no without sounding broke and miserable?"
+      ],
+      "keywords": [
+        "friends go out",
+        "say no",
+        "going out",
+        "social",
+        "saving but friends",
+        "nights out"
+      ],
+      "answer": "You can say no without making it a big thing. Try: 'I'm saving for something this month, but I'm in for a cheaper plan', like a braai at home, a walk or a free event. Decide your going-out amount at the start of the month so a yes doesn't wreck anything. Real friends tend to respect a clear goal.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "spending-stress",
+      "topic": "spending",
+      "tone": "calm",
+      "questions": [
+        "I spend money when I'm stressed. How do I notice the pattern and stop making tomorrow's problem worse?"
+      ],
+      "keywords": [
+        "stress spending",
+        "emotional spending",
+        "spend when stressed",
+        "retail therapy",
+        "comfort spending"
+      ],
+      "answer": "Noticing the pattern is already half of it. Next time you feel the urge, wait 24 hours before buying, and write down what was going on: tired, anxious, bored, payday. After a few weeks you'll see which situations trigger it. Move non-essentials out of easy reach (remove saved cards) and plan one small, cheap thing that helps instead. If the stress is heavy, talking to someone you trust helps too.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "money"
+    },
+    {
+      "id": "subscriptions",
+      "topic": "spending",
+      "tone": "playful",
+      "questions": [
+        "Why am I paying for subscriptions I forgot existed? Are they living better than me?"
+      ],
+      "keywords": [
+        "subscriptions",
+        "debit orders",
+        "forgot",
+        "streaming",
+        "gym",
+        "cancel"
+      ],
+      "answer": "They might be. Open your bank or card statement for the last three months and look for repeating amounts: streaming, apps, gym, cloud storage. Cancel anything you haven't used in a month. It's usually the quickest win in any budget. Most apps let you cancel in their settings or through the store you subscribed with.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "money"
+    },
+    {
+      "id": "bank-fees",
+      "topic": "basics",
+      "tone": "calm",
+      "questions": [
+        "What are all these little bank fees, and can you explain which ones I can actually avoid?"
+      ],
+      "keywords": [
+        "bank fees",
+        "fees",
+        "monthly fee",
+        "atm fee",
+        "sms fee",
+        "charges",
+        "bank charges"
+      ],
+      "answer": "Common ones are a monthly account fee, and fees for card swipes, ATM withdrawals, cash deposits, SMS notifications and transfers to other banks. Many can be reduced by using the app instead of the branch, using your own bank's ATMs, and choosing an account that suits how you actually bank. Your bank publishes a fee schedule on its website, and checking your statement for fees you don't recognise is worth ten minutes.",
+      "nextStep": null,
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "card-types",
+      "topic": "basics",
+      "tone": "calm",
+      "questions": [
+        "What's the difference between a debit card, a credit card, and a store account? Explain it like I'm new here."
+      ],
+      "keywords": [
+        "debit card",
+        "credit card",
+        "store account",
+        "difference",
+        "card types"
+      ],
+      "answer": "A debit card spends your own money straight from your account. A credit card lets you spend the bank's money and pay it back later, with interest if you don't pay in full. A store account lets you buy at one shop on credit, often with high interest and fees. Debit is the safest starting point, and credit is a tool that works well only if you can repay on time.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    },
+    {
+      "id": "first-salary",
+      "topic": "basics",
+      "tone": "playful",
+      "questions": [
+        "I just got my first proper job. What should I do with my first salary before I accidentally become a millionaire's worst imitation?",
+        "I just started my first job, what do I do with my money?"
+      ],
+      "keywords": [
+        "first job",
+        "first salary",
+        "just started working",
+        "new job",
+        "what should i do with my salary"
+      ],
+      "answer": "Congratulations! A sensible order: check your payslip so you know what's coming off, cover your essentials (rent, food, transport, data), start a small emergency pot even if it's tiny, then treat yourself a little so it's sustainable. Be careful with new store accounts and pay-later offers in the first months.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "money"
+    },
+    {
+      "id": "student-budget",
+      "topic": "basics",
+      "tone": "calm",
+      "questions": [
+        "Can my student allowance survive groceries, transport, data, toiletries, and the occasional treat, or are we cooked?"
+      ],
+      "keywords": [
+        "student",
+        "allowance",
+        "student budget",
+        "nsfas",
+        "groceries",
+        "varsity"
+      ],
+      "answer": "Let's check instead of guessing. List what comes in each month, then the essentials: food, transport, data, toiletries. Whatever is left is your treat money. Splitting the month into weekly amounts helps, because a monthly allowance looks bigger than it is on day one. If the maths doesn't work, we'll look at what to trim first.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "money"
+    },
+    {
+      "id": "reset-plan",
+      "topic": "basics",
+      "tone": "calm",
+      "questions": [
+        "I've made some questionable money decisions. Give me a realistic reset plan, not a motivational speech.",
+        "Be honest: am I managing my money, or is my money managing me like a badly behaved toddler?"
+      ],
+      "keywords": [
+        "reset",
+        "fresh start",
+        "start over",
+        "money check in",
+        "managing my money",
+        "bad decisions"
+      ],
+      "answer": "No speech, here's a plan. One: see where you really are (income, fixed costs, what you owe). Two: cover essentials first. Three: set a small emergency buffer target. Four: pick one debt or habit to fix first. Five: check in for ten minutes once a week. For an honest check-in ask yourself: do I know what I spend, could I cover a surprise bill, and am I saving anything? Two or three yeses means you're doing better than you think.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "money"
+    },
+    {
+      "id": "insurance-funeral",
+      "topic": "insurance",
+      "tone": "calm",
+      "questions": [
+        "What is funeral cover and do I need it?",
+        "Should I get funeral cover with my first job?"
+      ],
+      "keywords": [
+        "funeral cover",
+        "funeral policy",
+        "burial",
+        "funeral insurance",
+        "waiting period"
+      ],
+      "answer": "Funeral cover pays out a lump sum when you or someone covered on your policy dies, to help with funeral costs. Many families can't find that money at short notice, which is why people take it. Check who is covered, the monthly premium, the waiting period and what exactly it pays out. Avoid stacking several policies you can't keep paying for, because a lapsed policy pays nothing. If other people depend on you, it's worth thinking about.",
+      "nextStep": null,
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "insuranceGuide"
+    },
+    {
+      "id": "insurance-medical",
+      "topic": "insurance",
+      "tone": "calm",
+      "questions": [
+        "What is the difference between medical aid and gap cover?",
+        "Do I need medical aid?"
+      ],
+      "keywords": [
+        "medical aid",
+        "gap cover",
+        "hospital plan",
+        "health insurance",
+        "medical scheme"
+      ],
+      "answer": "Medical aid is a monthly plan that helps pay for doctors, hospital stays and medicine, depending on the option you choose. Gap cover is extra insurance that helps when a hospital or specialist charges more than your medical aid pays. A hospital plan covers hospital bills but not everyday visits. Compare what's actually covered, not just the monthly price, and ask your employer whether they offer a scheme.",
+      "nextStep": null,
+      "status": "unverified",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": "insuranceGuide"
+    },
+    {
+      "id": "food-tight-budget",
+      "topic": "food",
+      "tone": "calm",
+      "questions": [
+        "How can I make my food last until payday?",
+        "What can I cook with what I have at home?",
+        "How do I eat on a tight budget?",
+        "Can you help me plan food on a small budget?"
+      ],
+      "keywords": [
+        "food",
+        "groceries",
+        "meal plan",
+        "cook",
+        "what to cook",
+        "cheap meals",
+        "food budget",
+        "eat cheaply",
+        "make food last",
+        "food last",
+        "food last until payday"
+      ],
+      "answer": "Start with what you already have, then build meals around filling staples. Use anything that's about to expire first. Compare prices per kilogram or litre instead of per pack, and buy sizes you'll actually finish. Count your transport cost too, because a far-away cheaper shop can cost more once you add the trip. Tell me how many people you're feeding and what you have to cook with, and I'll suggest more.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [
+        "moreki-food-report"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "food-no-fridge",
+      "topic": "food",
+      "tone": "calm",
+      "questions": [
+        "I don't have a fridge. What can I buy?",
+        "How do I shop without a fridge?"
+      ],
+      "keywords": [
+        "no fridge",
+        "without fridge",
+        "fridge",
+        "spoil",
+        "keep food fresh",
+        "storage"
+      ],
+      "answer": "No fridge is workable. Lean on foods that keep, like dry goods, tinned items and long-life products, and buy fresh items in small amounts you'll use the same day. Be careful with meat, dairy and leftovers, because they can spoil quickly without refrigeration.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [
+        "moreki-food-report"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "food-leftovers",
+      "topic": "food",
+      "tone": "playful",
+      "questions": [
+        "How can I use my leftovers?",
+        "If I spend R2,000 on food but technically consumed the food, was it really wasted money?"
+      ],
+      "keywords": [
+        "leftovers",
+        "wasted food",
+        "food waste",
+        "spent on food",
+        "stretch food"
+      ],
+      "answer": "If you ate it, it wasn't wasted, though R2 000 on food is worth a closer look. Leftovers are a great way to stretch a budget: cook a bit extra and use it as the next meal, or turn it into something new. Tracking your food spend each week shows how much really goes where.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [
+        "moreki-food-report"
+      ],
+      "openFeature": "money"
+    },
+    {
+      "id": "food-health-boundary",
+      "topic": "food",
+      "tone": "calm",
+      "questions": [
+        "I have an allergy, what should I eat?",
+        "I have a medical condition and need a special diet."
+      ],
+      "keywords": [
+        "allergy",
+        "allergic",
+        "medical diet",
+        "diabetes",
+        "special diet",
+        "pregnant",
+        "dietitian"
+      ],
+      "answer": "With an allergy or a medical diet, general tips aren't enough, and I don't want to risk your health. A doctor or registered dietitian can give advice that fits you. I can help with the money side, like planning a budget around what they recommend.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [
+        "moreki-food-report"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "about-privacy",
+      "topic": "about_moreki",
+      "tone": "calm",
+      "questions": [
+        "Do I have to tell Moreki my income?",
+        "Does Moreki need my salary?"
+      ],
+      "keywords": [
+        "income",
+        "tell my salary",
+        "privacy",
+        "share my salary",
+        "do i have to share",
+        "personal info"
+      ],
+      "answer": "No. You choose what to share. You can type an exact budget, or just say whether you want the cheapest option or the best value, or share nothing about money and still get useful help. Not sharing isn't a red flag, it's your call.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [
+        "moreki-food-report"
+      ],
+      "openFeature": null
+    },
+    {
+      "id": "about-ai",
+      "topic": "about_moreki",
+      "tone": "calm",
+      "questions": [
+        "Are you AI?",
+        "Are you a real person?",
+        "Who are you?",
+        "Who is Moreki?"
+      ],
+      "keywords": [
+        "are you ai",
+        "real person",
+        "who are you",
+        "who is moreki",
+        "robot",
+        "chatgpt"
+      ],
+      "answer": "I'm Moreki, your money coach in the app. These answers are saved and written by the Moreki team, they aren't generated live by AI, and nothing you type here is sent anywhere. I can't see your bank account or give formal financial advice, so for big decisions talk to a registered professional.",
+      "nextStep": null,
+      "status": "general_guidance",
+      "verifiedOn": null,
+      "sourceIds": [],
+      "openFeature": null
+    }
+  ]
+}
