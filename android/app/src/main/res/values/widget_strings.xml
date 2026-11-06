@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="moreki_widget_description">Shows how much you have left to spend and your Moreki Score.</string>
+</resources>
